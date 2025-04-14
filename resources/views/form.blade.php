@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    @include('content.form')
+    {{-- @include('content.style') --}}
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="keranjang-header">
+  <h1>Pesanan Saya</h1>
+  <div class="clouds"></div>
+</div>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Form Kiri -->
+            <div class="col-md-6 form-container">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Nama :</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">No Whatsapp :</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Alamat :</label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label class="fw-bold">Detail Pesanan</label>
+                        <div class="order-item d-flex align-items-center">
+                            <img src="assets/images/furniture.png" class="me-3" alt="Item">
+                            <div class="flex-grow-1">Pampers M (68 Pcs)</div>
+                            <div>85.000</div>
+                        </div>
+                        <div class="order-item d-flex align-items-center">
+                            {{-- <img src="assets/images/furniture.png" class="img-fluid" alt="..."> --}}
+                            <img src="assets/images/furniture.png" class="me-3" alt="Item">
+                            <div class="flex-grow-1">Pampers M (68 Pcs)</div>
+                            <div>85.000</div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Form Kanan -->
+            <div class="col-md-4 form-container">
+                <form>
+                    <div class="mb-3">
+                        <label class="fw-bold">Pengiriman :</label><br>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="pengiriman" id="internal" checked>
+                            <label class="form-check-label" for="internal">Internal (Cikarang)</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="pengiriman" id="external">
+                            <label class="form-check-label" for="external">External (Luar Cikarang)</label>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="fw-bold">Status Pembayaran :</label><br>
+                        <span class="badge bg-success status-badge">Dibayar</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="fw-bold">Status Pesanan :</label><br>
+                        <span class="badge bg-primary status-badge">Dikemas</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="resi" class="form-label">No Resi :</label>
+                        <input type="text" class="form-control" id="resi" value="IDR947563942543" readonly>
+                    </div>
+
+                    <div class="order-summary">
+                        <p class="mb-1">Sub Total: <span class="float-end">170.000</span></p>
+                        <p class="mb-1">Pengiriman: <span class="float-end">5.000</span></p>
+                        <hr>
+                        <p class="fw-bold">TOTAL: <span class="float-end">175.000</span></p>
+                    </div>
+                    <div class="d-grid mt-3">
+                        <button type="submit" class="btn btn-dark">Kirim</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+@include("include.script")
