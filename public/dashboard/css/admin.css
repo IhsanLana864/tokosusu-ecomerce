@@ -1,0 +1,33 @@
+/* public/css/admin.css */
+.bg-lightpink {
+    background-color: #43262c;
+}
+
+.sidebar {
+    background-color: #cce5ff;
+    height: 100vh;
+}
+
+.sidebar .nav-link {
+    color: #002147;
+    font-weight: 500;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #000;
+}
+
+.card-custom {
+    background-color: #ffe1e8;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-custom h5 {
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -56,9 +56,14 @@
                     <a class="nav-link icon-search" href="javascript:void(0);"></a>
                 </li> --}}
                 <li class="nav-item">
-                    <a class="nav-link position-relative icon-cart" href="javascript:void(0);"><span
-                            class="num rounded d-block">5</span></a>
+                    <a class="nav-link position-relative icon-cart" href="{{ url('/pembayaran') }}">
+                        <span class="num rounded-circle bg-danger text-white px-2 py-1 position-absolute top-0 start-100 translate-middle">
+                            5
+                        </span>
+                        <i class="bi bi-cart-fill"></i> <!-- contoh icon Bootstrap -->
+                    </a>
                 </li>
+
                 <li>
                     <a class="nav-link" data-toggle="dropdown" href="javascript:void(0);" role="button"
                         aria-haspopup="true" aria-expanded="false">
