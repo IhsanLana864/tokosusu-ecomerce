@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout Form</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
     @include('content.style')
     @include('content.pembayaran')
 </head>
 <body>
-<div class="keranjang-header">
-    <div class="keranjang-header">
-        {{-- background-nya masuk dari CSS --}}
-    </div>
 
-<div class="clouds"></div>
+<!-- HTML -->
+<div class="keranjang-header">
+    <img src="{{ asset('assets/images/keranjang-icon.png') }}" alt="Keranjang">
+    <h1>Checkout Pesanan</h1>
+    <div class="clouds"></div>
 </div>
-<body>
-    <div class="container py-5">
+    <div class="container pg-5">
         <div class="row g-4">
             <!-- LEFT FORM -->
             <div class="col-md-6">

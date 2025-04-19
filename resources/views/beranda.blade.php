@@ -25,7 +25,7 @@
                 <div class="slick-fade">
                     <div>
                         <div class="align w-100 d-flex align-items-center bgCover"
-                            style="background-image: url('{{ asset('assets/images/Background1.png') }}')">
+                            style="background-image: url('{{ asset('assets/images/background-3.png') }}')">
                             <!-- holder -->
                             <div class="container position-relative holder pt-xl-10 pt-0">
                                 <!-- py-12 pt-lg-30 pb-lg-25 -->
@@ -57,7 +57,7 @@
                     </div>
                     <div>
                         <div class="align w-100 d-flex align-items-center bgCover"
-                            style="background-image: url('{{ asset('assets/images/Background1.png') }}')">
+                            style="background-image: url('{{ asset('assets/images/background-3.png') }}')">
                             <!-- holder -->
                             <div class="container position-relative holder pt-xl-10 pt-0">
                                 <!-- py-12 pt-lg-30 pb-lg-25 -->
@@ -85,7 +85,7 @@
                     </div>
                     <div>
                         <div class="align w-100 d-flex align-items-center bgCover"
-                            style="background-image: url('{{ asset('assets/images/Background1.png') }}')">
+                            style="background-image: url('{{ asset('assets/images/background-3.png') }}')">
                             <!-- holder -->
                             <div class="container position-relative holder pt-xl-10 pt-0">
                                 <!-- py-12 pt-lg-30 pb-lg-25 -->
