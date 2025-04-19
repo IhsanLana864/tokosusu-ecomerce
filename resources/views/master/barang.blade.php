@@ -9,17 +9,18 @@
             </div>
 
             <!-- Main content -->
-            <div class="col-md-9 col-lg-10 mt-4">
-                <div class="bg-white rounded-4 p-4 shadow-sm" style="background-color: #FFECEC;">
+            <div class="col-md-9 col-lg-10 mt-4 ps-md-4">
+                <div class="card-pink">
+
                     <div class="d-flex justify-content-between align-items-center mb-4">
-                        <h3 class="fw-bold mb-0">Barang</h3>
+                        <h3 class="fw-bold mb-0" style="color: #003366;">Barang</h3>
                         <a href="{{ url('/master/tambah') }}" class="btn text-white"
-                            style="background-color: #003366;">Tambah</a>
+                            style="background-color: #003366; border-radius: 8px;">Tambah</a>
                     </div>
 
                     <div class="table-responsive">
-                        <table class="table table-borderless" style="background-color: #FFDFDF; border-radius: 10px;">
-                            <thead class="text-center fw-bold" style="color: #003366;">
+                        <table class="table table-borderless table-barang">
+                            <thead class="text-center fw-bold">
                                 <tr>
                                     <th>Nama</th>
                                     <th>Kategori</th>
@@ -30,8 +31,8 @@
                             </thead>
                             <tbody class="align-middle text-center">
                                 @for ($i = 0; $i < 7; $i++)
-                                    <tr class="align-middle" style="background-color: #FFECEC; border-radius: 10px;">
-                                        <td class="d-flex align-items-center gap-3 ps-4">
+                                    <tr>
+                                        <td class="d-flex align-items-center gap-3 ps-4 py-3">
                                             <img src="{{ asset('assets/images/furniture.png') }}" alt="Produk"
                                                 width="50" height="50" style="border-radius: 10px;">
                                             Pampers M (68 Pcs)
@@ -41,10 +42,8 @@
                                         <td>Bal</td>
                                         <td>
                                             <div class="d-flex justify-content-center gap-2">
-                                                <a href="#" class="btn btn-sm text-white"
-                                                    style="background-color: #003366; min-width: 60px;">Edit</a>
-                                                <a href="#" class="btn btn-sm text-white"
-                                                    style="background-color: #FF5C8D; min-width: 60px;">Hapus</a>
+                                                <a href="{{ url('/master/edit') }}" class="btn btn-sm btn-edit">Edit</a>
+                                                <a href="#" class="btn btn-sm btn-hapus">Hapus</a>
                                             </div>
                                         </td>
                                     </tr>
@@ -52,6 +51,7 @@
                             </tbody>
                         </table>
                     </div>
+
                 </div>
             </div>
         </div>

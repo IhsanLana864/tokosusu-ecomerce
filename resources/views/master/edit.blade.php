@@ -8,50 +8,54 @@
                 @include('admin.sidebar')
             </div>
 
-            <!-- Main Content -->
-            <div class="col-md-9 col-lg-10">
-                <div class="px-3 py-4">
-                    <div class="card shadow-sm px-4 py-4" style="background-color: #FFECEC; border-radius: 10px;">
-                        <h5 class="fw-bold mb-4" style="color: #14213D;">Edit Barang</h5>
-                        <form>
+            <!-- Main content -->
+            <div class="col-md-9 col-lg-10 mt-4 ps-md-4">
+                <div class="card p-4" style="background-color: #eaf6ff; border-radius: 20px;">
+                    <h3 class="fw-bold mb-4" style="color: #003366;">Edit Barang</h3>
+
+                    <div class="p-4" style="background-color: #fcdcdc; border-radius: 12px;">
+                        <form action="{{ url('/master/update') }}" method="POST" enctype="multipart/form-data">
+                            @csrf
+                            <!-- Nama -->
                             <div class="mb-3">
-                                <label for="nama" class="form-label fw-semibold">Nama :</label>
-                                <input type="text" class="form-control" id="nama" name="nama" style="border-radius: 6px;">
+                                <label for="nama" class="form-label">Nama :</label>
+                                <input type="text" class="form-control" id="nama" name="nama" value="Pampers M (68 Pcs)">
                             </div>
 
+                            <!-- Kategori -->
                             <div class="mb-3">
-                                <label for="kategori" class="form-label fw-semibold">Kategori :</label>
-                                <select class="form-select" id="kategori" name="kategori" style="border-radius: 6px;">
+                                <label for="kategori" class="form-label">Kategori :</label>
+                                <select class="form-select" id="kategori" name="kategori">
                                     <option selected disabled>Pilih Kategori</option>
-                                    <option>Pempers</option>
-                                    <option>Susun</option>
-                                    <option>Lainnya</option>
+                                    <option value="Pampers" selected>Pampers</option>
+                                    <option value="Makanan">Makanan</option>
+                                    <option value="Minuman">Minuman</option>
                                 </select>
                             </div>
 
+                            <!-- Harga -->
                             <div class="mb-3">
-                                <label for="harga" class="form-label fw-semibold">Harga :</label>
-                                <input type="number" class="form-control" id="harga" name="harga" style="border-radius: 6px;">
+                                <label for="harga" class="form-label">Harga :</label>
+                                <input type="number" class="form-control" id="harga" name="harga" value="85000">
                             </div>
 
+                            <!-- Satuan -->
                             <div class="mb-3">
-                                <label for="satuan" class="form-label fw-semibold">Satuan :</label>
-                                <input type="text" class="form-control" id="satuan" name="satuan" style="border-radius: 6px;">
+                                <label for="satuan" class="form-label">Satuan :</label>
+                                <input type="text" class="form-control" id="satuan" name="satuan" value="Bal">
                             </div>
 
-                            <div class="mb-3">
-                                <label for="gambar" class="form-label fw-semibold">Gambar</label>
-                                <div class="input-group">
-                                    <label class="btn text-white" style="background-color: #14213D; border-radius: 6px;">
-                                        Pilih File
-                                        <input type="file" id="gambar" name="gambar" hidden>
-                                    </label>
-                                    <input type="text" class="form-control" placeholder="Belum ada file dipilih" disabled style="border-radius: 6px;">
-                                </div>
+                            <!-- Gambar -->
+                            <div class="mb-4">
+                                <label for="gambar" class="form-label">Gambar</label>
+                                <input type="file" class="form-control" id="gambar" name="gambar">
                             </div>
 
-                            <div class="text-end mt-4">
-                                <button type="submit" class="btn text-white px-4" style="background-color: #14213D; border-radius: 6px;">Simpan</button>
+                            <!-- Tombol Simpan -->
+                            <div class="text-end">
+                                <button type="submit" class="btn text-white px-4" style="background-color: #003366; border-radius: 8px;">
+                                    Simpan
+                                </button>
                             </div>
                         </form>
                     </div>

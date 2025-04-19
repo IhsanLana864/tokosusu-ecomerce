@@ -58,15 +58,15 @@
         </li>
 
         <li>
-            <a href="{{ url('/pesanan') }}" class="nav-link {{ request()->is('pesanan') ? 'active' : '' }}"
-                style="{{ request()->is('pesanan') ? 'background-color: white; color: #003366;' : 'color: #003366;' }}">
+            <a href="{{ url('/master/pesanan') }}" class="nav-link {{ request()->is('pesanan') ? 'active' : '' }}"
+                style="{{ request()->is('master/pesanan') ? 'background-color: white; color: #003366;' : 'color: #003366;' }}">
                 <i class="bi bi-bag-fill me-2"></i> Pesanan
             </a>
         </li>
 
         <li>
-            <a href="{{ url('/notifikasi') }}" class="nav-link {{ request()->is('notifikasi') ? 'active' : '' }}"
-                style="{{ request()->is('notifikasi') ? 'background-color: white; color: #003366;' : 'color: #003366;' }}">
+            <a href="{{ url('/master/notifikasi') }}" class="nav-link {{ request()->is('notifikasi') ? 'active' : '' }}"
+                style="{{ request()->is('master/notifikasi') ? 'background-color: white; color: #003366;' : 'color: #003366;' }}">
                 <i class="bi bi-bell-fill me-2"></i> Notifikasi
             </a>
         </li>

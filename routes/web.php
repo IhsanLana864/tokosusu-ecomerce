@@ -37,8 +37,6 @@ Route::get('/form', function () {
 });
 
 
-
-
 // ================== ADMIN ROUTES ==================
 
 Route::prefix('admin')->group(function () {
@@ -97,4 +95,12 @@ Route::prefix('master')->group(function () {
     Route::get('/master-page', function () {
         return view('master.master');
     })->name('master.masterpage');
+
+    Route::get('/pesanan', function () {
+        return view('master.pesanan');
+    })->name('master.pesanan');
+
+    Route::get('/notifikasi', function () {
+        return view('master.notifikasi');
+    })->name('master.notifikasi');
 });
