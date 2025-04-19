@@ -1,6 +1,6 @@
 
 /* ---------------------------------------------------------
-	 
+
 1	 pageWrapper
 2	 bgCover
 3	 headingII
@@ -85,7 +85,7 @@ a{ transition: all 0.25s linear; }
 	background-size: cover;
 	background-position: 50% 50%;
 }
-.playfair{ font-family: $font-family-serif; }
+.playfair{ font-family: 'Protest Riot', sans-serif; }
 .fwEbold{ font-weight: bold; }
 .btnTheme{ @extend %colorBg; }
 .btn{
@@ -1107,7 +1107,7 @@ a{ transition: all 0.25s linear; }
             background: none;
             top: 0;
             @include font(10px, 12px);
-            text-indent: -9999px; 
+            text-indent: -9999px;
             &:before{
                 top: 18px;
                 left: 19px;
@@ -1252,7 +1252,7 @@ a{ transition: all 0.25s linear; }
 	            background: none;
 	            top: 0;
 	            @include font(10px, 12px);
-	            text-indent: -9999px; 
+	            text-indent: -9999px;
 	            &:before{
 	                top: 18px;
 	                left: 19px;

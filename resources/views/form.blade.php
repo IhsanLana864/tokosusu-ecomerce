@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Checkout Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
     @include('content.form')
     {{-- @include('content.style') --}}
 </head>
@@ -11,11 +12,12 @@
 </head>
 <body>
 
+<!-- HTML -->
 <div class="keranjang-header">
-  <h1>Pesanan Saya</h1>
-  <div class="clouds"></div>
+    <img src="{{ asset('assets/images/keranjang-icon.png') }}" alt="Keranjang">
+    <h1>Lacak pesanan</h1>
+    <div class="clouds"></div>
 </div>
-<body>
     <div class="container">
         <div class="row justify-content-center">
             <!-- Form Kiri -->

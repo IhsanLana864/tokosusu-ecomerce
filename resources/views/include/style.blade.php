@@ -14,5 +14,6 @@
 <link rel="stylesheet" href="{{ asset('assets/css/color.css') }}">
 <!-- include theme responsive setting stylesheet -->
 <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">

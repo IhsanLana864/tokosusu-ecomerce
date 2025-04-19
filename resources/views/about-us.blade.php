@@ -46,7 +46,7 @@
             <!-- Include about content -->
             @include('checkout.tentang')
         </main>
-        
+
 
         <!-- Back to top button -->
         <div id="toTop"></div>

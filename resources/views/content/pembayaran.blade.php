@@ -45,6 +45,7 @@
 }
 
 
+
     /* Awan bagian bawah */
     .clouds {
     position: absolute;

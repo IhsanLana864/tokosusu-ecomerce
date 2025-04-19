@@ -1,17 +1,39 @@
-<!-- Tambahkan di file Blade atau HTML kamu -->
-<div style="background-color: #cceeff; /* biru muda */
+<!-- Box Input ID Pesanan -->
+<div style="background-color: #cceeff;
+            border: 2px solid #0099ff;
             border-radius: 8px;
             padding: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-            max-width: 700px;
-            margin: auto;">
-    <label for="order_id" style="font-weight: bold; color: #003366;">
+            max-width: 950px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;">
+
+    <label for="order_id" style="font-weight: bold; color: #003366; min-width: 100px;">
         ID Pesanan:
     </label>
+
     <input type="text" id="order_id" name="order_id" placeholder="Masukan ID Pesanan Anda"
-           style="width: 100%;
-                  padding: 10px;
-                  border-radius: 6px;
-                  border: 1px solid #ccc;
-                  margin-top: 5px;">
+           style="flex: 1;
+                  min-width: 250px;
+                  padding: 10px 15px;
+                  border-radius: 8px;
+                  border: none;
+                  box-shadow: inset 0 0 3px rgba(0,0,0,0.1);">
+
+    <button type="submit"
+            style="background-color: #0b3c9c;
+                   color: white;
+                   font-weight: bold;
+                   border: none;
+                   border-radius: 8px;
+                   padding: 10px 20px;
+                   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+                   cursor: pointer;">
+        Lihat Pesanan
+    </button>
 </div>
+
+<!-- Spasi antar section -->
+<div style="height: 40px;"></div>
