@@ -5,12 +5,12 @@ use Illuminate\Support\Facades\Route;
 // ================== PUBLIC ROUTES ==================
 
 Route::get('/', function () {
-    return view('home');
+    return view('beranda');
 });
 
-Route::get('/home', function () {
-    return redirect('/home');
-});
+Route::get('/beranda', function () {
+    return view('beranda'); // Tampilkan view, bukan redirect
+})->name('beranda');
 
 Route::get('/store', function () {
     return view('store');
@@ -18,6 +18,10 @@ Route::get('/store', function () {
 
 Route::get('/about-us', function () {
     return view('about-us');
+});
+
+Route::get('/lacak', function () {
+    return view('lacak');
 });
 
 Route::get('/checkout', function () {

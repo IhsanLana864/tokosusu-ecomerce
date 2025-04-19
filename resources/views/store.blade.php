@@ -24,20 +24,21 @@
                 <div class="slick-fade">
                     <div>
                         <div class="align w-100 d-flex align-items-center bgCover"
-                            style="background-image: url('{{ asset('assets/images/keranjang-bg.png') }}')">
+                            style="background-image: url('{{ asset('assets/images/Backgroundkeranjang.png') }}')">
                             <!-- holder -->
                             <div class="container position-relative holder pt-xl-10 pt-0">
                                 <!-- py-12 pt-lg-30 pb-lg-25 -->
                                 <div class="row">
                                     <div class="col-12 col-xl-7">
                                         <div class="txtwrap pr-lg-10">
-                                            <h2 class="fwEbold position-relative mb-xl-7 mb-lg-5">
-                                                Keranjang Bahagia
-                                                <span class="text-break d-block"></span>
+                                            <h2 class="fwEbold position-relative mb-xl-7 mb-lg-5 d-flex align-items-center gap-2">
+                                                <i class="bi bi-cart4 text-primary display-6"></i>
+                                                Keranjang
                                             </h2>
                                         </div>
                                     </div>
                                     <div class="imgHolder">
+                                        <!-- Add any content or image for the imgHolder here if needed -->
                                     </div>
                                 </div>
                             </div>
@@ -54,17 +55,18 @@
 
 
 
-	<!--/main-->
+<!--/main-->
 
 
 
-	<div id="toTop"></div><!-- Back to top button -->
+<div id="toTop"></div><!-- Back to top button -->
 
-	<!-- COMMON SCRIPTS -->
-    <script src="js/common_scripts.min.js"></script>
-    <script src="js/main.js"></script>
+<!-- COMMON SCRIPTS -->
+<script src="js/common_scripts.min.js"></script>
+<script src="js/main.js"></script>
 
 
 </body>
+
 </html>
-                @include('include.script')
+@include('include.script')

@@ -25,7 +25,7 @@
   left: 0;
   width: 100%;
   height: 60px;
-  background: url('https://www.transparenttextures.com/patterns/cloudy-day.png') repeat-x center;
+  background: url('asset') repeat-x center;
 }
   .order-item img {
       height: 70px;
@@ -36,6 +36,14 @@
       background-color: #f4fdb4;
       border-radius: 10px;
   }
+  .keranjang-header {
+    background-image: url('{{ asset("assets/images/checkout-banner.png") }}');
+    background-size: cover;
+    background-position: center;
+    height: 250px; /* sesuaikan tinggi */
+    position: relative;
+}
+
   .order-summary {
       background-color: #fff;
       padding: 20px;

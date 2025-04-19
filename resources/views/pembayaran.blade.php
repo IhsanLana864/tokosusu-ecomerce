@@ -11,7 +11,10 @@
 </head>
 <body>
 <div class="keranjang-header">
-<h1>Pesanan Saya</h1>
+    <div class="keranjang-header">
+        {{-- background-nya masuk dari CSS --}}
+    </div>
+
 <div class="clouds"></div>
 </div>
 <body>

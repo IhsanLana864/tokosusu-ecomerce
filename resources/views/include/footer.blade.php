@@ -22,7 +22,7 @@
                     </span>
                 </li>
             </ul>
-            <ul class="list-unstyled followSocailNetwork d-flex flex-nowrap">
+            {{-- <ul class="list-unstyled followSocailNetwork d-flex flex-nowrap">
                 <li class="fwEbold mr-xl-11 mr-sm-6 mr-4">Follow us:</li>
                 <li class="mr-xl-6 mr-sm-4 mr-2">
                     <a href="javascript:void(0);" class="fab fa-facebook-f"></a>
@@ -36,7 +36,7 @@
                 <li class="mr-2">
                     <a href="javascript:void(0);" class="fab fa-google-plus-g"></a>
                 </li>
-            </ul>
+            </ul> --}}
         </div>
 
         <div class="coll-2 mb-sm-4 mb-3 mb-lg-0">
@@ -60,16 +60,16 @@
             </ul>
         </div>
 
-        <div class="coll-4 mb-sm-4 mb-3 mb-lg-0">
+        {{-- <div class="coll-4 mb-sm-4 mb-3 mb-lg-0">
             <h3 class="headingVI fwEbold text-uppercase mb-7 pl-xl-14 pl-lg-10">Tag Populer</h3>
             <ul class="list-unstyled tagNavList d-flex flex-wrap justify-content-lg-end mb-0">
                 <li class="text-center mb-2 mr-2">
                     <a href="javascript:void(0);" class="md-round d-block py-2 px-2">Susu</a>
                 </li>
-                <li class="text-center mb-2 mr-2">
+                <li class="text-center mb-2 mr-2"> --}}
                     <!-- You can add more tags here -->
-                </li>
+                {{-- </li>
             </ul>
-        </div>
+        </div> --}}
     </div>
 </aside>

@@ -28,11 +28,11 @@
                             <div class="container position-relative holder pt-xl-10 pt-0">
                                 <div class="row">
                                     <div class="col-12 pt-lg-23 pt-md-15 pt-sm-10 pt-6 text-center">
-                                        <h1 class="headingIV fwEbold playfair mb-4">About Us</h1>
+                                        <h1 class="headingIV fwEbold playfair mb-4">Lacak pesanan</h1>
                                         <ul class="list-unstyled breadCrumbs d-flex justify-content-center">
                                             <li class="mr-2"><a href="home.html">Home</a></li>
                                             <li class="mr-2">/</li>
-                                            <li class="active">About</li>
+                                            <li class="active">Lacak Pesanan</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -44,9 +44,8 @@
 
 
             <!-- Include about content -->
-            @include('checkout.tentang')
+            @include('checkout.lacakpesanan')
         </main>
-        
 
         <!-- Back to top button -->
         <div id="toTop"></div>
@@ -57,6 +56,5 @@
     <script src="js/main.js"></script>
     @include('include.script')
 </body>
-@include('include.footer')
-
+ @include('include.blank')
 </html>

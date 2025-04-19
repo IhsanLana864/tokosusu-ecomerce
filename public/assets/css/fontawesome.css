@@ -4394,7 +4394,7 @@ readers do not read off random characters that represent icons */
     font-weight: normal;
     font-display: auto;
     src: url("../fonts/fa-brands-400.eot");
-    src: url("../fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), 
+    src: url("../fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),
          url("../fonts/fa-brands-400.woff2") format("woff2"),
          url("../fonts/fa-brands-400.woff") format("woff"),
          url("../fonts/fa-brands-400.ttf") format("truetype"),
@@ -4450,7 +4450,6 @@ readers do not read off random characters that represent icons */
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4471,6 +4470,9 @@ readers do not read off random characters that represent icons */
 .icon-desert:before { content: "\e908"; }
 .icon-profile:before { content: "\e909"; }
 .icon-qoute:before { content: "\e90a"; }
+.icon-bottle:before { content: "\e910"; } /* Botol susu */
+.icon-heart:before { content: "\e903"; }  /* Hati, kasih sayang */
+.icon-cart:before { content: "\e911"; }   /* Troli belanja */
 .icon-recycle:before { content: "\e90b"; }
 .icon-rightarrow:before { content: "\e90c"; }
 .icon-search:before { content: "\e90d"; }

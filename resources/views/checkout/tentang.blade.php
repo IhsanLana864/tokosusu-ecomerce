@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="id">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Toko Susu Bahagia - Tentang</title>
     <style>
         body {
             margin: 0;
@@ -118,9 +112,6 @@
         <a href="#" class="btn-toko">Toko</a>
         <img src="{{ asset('assets/images/bg-bby2.png') }}" alt="Baby Image" class="babies-img">
     </header> --}}
-
-    <div class="clouds"></div>
-
     <section>
         <h2>Tentang Toko Susu Bahagia</h2>
         <div class="about-container">
@@ -136,6 +127,8 @@
             </div>
         </div>
     </section>
+
+
 
     <div class="chat-section">
         <p>Ada Pertanyaan? Hubungi Kami!</p>

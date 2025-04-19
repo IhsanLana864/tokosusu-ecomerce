@@ -125,7 +125,7 @@
 <body>
 
     <div class="container">
-        <h1 class="cart-title">Keranjang Belanja</h1>
+        <h1 class="cart-title">Keranjang</h1>
 
         <table>
             <thead>

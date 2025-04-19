@@ -14,7 +14,7 @@
                 <!-- pageNav1 -->
                 <nav class="navbar navbar-expand-lg navbar-light p-0 pageNav1 position-static w-100">
                     {{-- Logo di kiri --}}
-                    <a class="navbar-brand" href="{{ url('/home') }}">
+                    <a class="navbar-brand" href="{{ url('#') }}">
                         <img src="{{ asset('assets/images/logo new.png') }}" alt="Logo" class="img-fluid"
                             style="height: 40px;">
                     </a>
@@ -29,18 +29,14 @@
                     {{-- Navigasi --}}
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mx-auto text-uppercase text-center">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="{{ url('/home') }}" id="homeDropdown"
-                                    role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
-                                    Home
-                                </a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('/beranda') }}">home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url('/store') }}">Store</a>
+                                <a class="nav-link" href="{{ url('/about-us') }}">Tentang</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url('/about-us') }}">About</a>
+                                <a class="nav-link" href="{{ url('/lacak') }}">Lacak pengiriman</a>
                             </li>
                         </ul>
                     </div>
