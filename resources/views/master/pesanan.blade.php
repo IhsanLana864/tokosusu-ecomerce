@@ -37,8 +37,10 @@
                         @foreach($statuses as $status => $badgeClass)
                         <tr style="background-color: #FFE5E5; border-radius: 10px;">
                             <td class="text-start ps-4">
-                                <i class="bi bi-file-earmark-text-fill me-2 text-primary"></i>
-                                <strong>TSB-2202250001</strong>
+                                <a href="{{ url('/master/detail') }}" class="text-decoration-none text-dark">
+                                    <i class="bi bi-file-earmark-text-fill me-2 text-primary"></i>
+                                    <strong>TSB-2202250001</strong>
+                                </a>
                             </td>
                             <td>22/02/2025<br>10.35</td>
                             <td>175.000</td>

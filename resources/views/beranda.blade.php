@@ -46,7 +46,8 @@
                                                 nutrisi.
                                             </p>
                                             <a href="/store"
-                                                class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Toko<i class="fas fa-arrow-right ml-2"></i></a>
+                                                class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Toko<i
+                                                    class="fas fa-arrow-right ml-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="imgHolder">
@@ -74,7 +75,8 @@
                                                 nutrisi.
                                             </p>
                                             <a href="/store"
-                                                class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3">Toko <i class="fas fa-arrow-right ml-2"></i></a>
+                                                class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3">Toko
+                                                <i class="fas fa-arrow-right ml-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="imgHolder">
@@ -103,7 +105,8 @@
                                                 typesetting industry.
                                             </p>
                                             <a href="/store"
-                                                class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Toko <i class="fas fa-arrow-right ml-2"></i></a>
+                                                class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Toko
+                                                <i class="fas fa-arrow-right ml-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="imgHolder">
@@ -207,7 +210,7 @@
                                         <a href="javascript:void(0);" class="icon-heart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
-                                        <a href="javascript:void(0);" class="icon-cart d-block"></a>
+                                        <a href="{{ url('/pembayaran') }}" class="icon-cart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
                                         <a href="javascript:void(0);" class="icon-eye d-block"></a>
@@ -218,8 +221,8 @@
                                 </ul>
                             </div>
                             <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Sit voluptatem</a></span>
-                                <span class="price d-block fwEbold">68.00 $</span>
+                                <span class="title d-block mb-2"><a href="#">Pampers (M)</a></span>
+                                <span class="price d-block fwEbold">Rp.50.000,00</span>
                             </div>
                         </div>
                     </div>
@@ -235,7 +238,7 @@
                                         <a href="javascript:void(0);" class="icon-heart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
-                                        <a href="javascript:void(0);" class="icon-cart d-block"></a>
+                                        <a href="{{ url('/pembayaran') }}" class="icon-cart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
                                         <a href="javascript:void(0);" class="icon-eye d-block"></a>
@@ -246,9 +249,8 @@
                                 </ul>
                             </div>
                             <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Neque Porro
-                                        Quisquamest</a></span>
-                                <span class="price d-block fwEbold">60.50 $</span>
+                                <span class="title d-block mb-2"><a href="#">Pempers(M)</a></span>
+                                <span class="price d-block fwEbold">Rp.50.000,00</span>
                                 <span
                                     class="hotOffer fwEbold text-uppercase text-white position-absolute d-block">HOT</span>
                             </div>
@@ -266,7 +268,7 @@
                                         <a href="javascript:void(0);" class="icon-heart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
-                                        <a href="javascript:void(0);" class="icon-cart d-block"></a>
+                                        <a href="{{ url('/pembayaran') }}" class="icon-cart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
                                         <a href="javascript:void(0);" class="icon-eye d-block"></a>
@@ -277,9 +279,8 @@
                                 </ul>
                             </div>
                             <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Pellentesque
-                                        aliquet</a></span>
-                                <span class="price d-block fwEbold">68.00 $</span>
+                                <span class="title d-block mb-2"><a href="#">Pampers (M)</a></span>
+                                <span class="price d-block fwEbold">Rp.50.000,00</span>
                             </div>
                         </div>
                     </div>
@@ -295,7 +296,7 @@
                                         <a href="javascript:void(0);" class="icon-heart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
-                                        <a href="javascript:void(0);" class="icon-cart d-block"></a>
+                                        <a href="{{ url('/pembayaran') }}" class="icon-cart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
                                         <a href="javascript:void(0);" class="icon-eye d-block"></a>
@@ -306,9 +307,8 @@
                                 </ul>
                             </div>
                             <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Aspetur Autodit
-                                        Autfugit</a></span>
-                                <span class="price d-block fwEbold"><del>80.00 $</del>66.00 $</span>
+                                <span class="title d-block mb-2"><a href="#">Pampers (M)</a></span>
+                                <span class="price d-block fwEbold"><del>Rp.60.000,00</del>Rp.50.000,00</span>
                                 <span
                                     class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
                             </div>
@@ -326,7 +326,7 @@
                                         <a href="javascript:void(0);" class="icon-heart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
-                                        <a href="javascript:void(0);" class="icon-cart d-block"></a>
+                                        <a href="{{ url('/pembayaran') }}" class="icon-cart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
                                         <a href="javascript:void(0);" class="icon-eye d-block"></a>
@@ -337,8 +337,8 @@
                                 </ul>
                             </div>
                             <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Sit voluptatem</a></span>
-                                <span class="price d-block fwEbold">70.50 $</span>
+                                <span class="title d-block mb-2"><a href="#">Pampers (M)</a></span>
+                                <span class="price d-block fwEbold">Rp.50.000,00</span>
                             </div>
                         </div>
                     </div>
@@ -354,7 +354,7 @@
                                         <a href="javascript:void(0);" class="icon-heart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
-                                        <a href="javascript:void(0);" class="icon-cart d-block"></a>
+                                        <a href="{{ url('/pembayaran') }}" class="icon-cart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
                                         <a href="javascript:void(0);" class="icon-eye d-block"></a>
@@ -365,9 +365,8 @@
                                 </ul>
                             </div>
                             <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Sint Incidunt
-                                        Utlabore</a></span>
-                                <span class="price d-block fwEbold"><del>75.00 $</del>60.50 $</span>
+                                <span class="title d-block mb-2"><a href="#">Pampers (M)</a></span>
+                                <span class="price d-block fwEbold"><del>Rp.60.000,00</del>Rp.50.000,00</span>
                                 <span
                                     class="hotOffer fwEbold text-uppercase text-white position-absolute d-block">HOT</span>
                                 <span
@@ -387,7 +386,7 @@
                                         <a href="javascript:void(0);" class="icon-heart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
-                                        <a href="javascript:void(0);" class="icon-cart d-block"></a>
+                                        <a href="{{ url('/pembayaran') }}" class="icon-cart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
                                         <a href="javascript:void(0);" class="icon-eye d-block"></a>
@@ -398,9 +397,8 @@
                                 </ul>
                             </div>
                             <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Aliquam Quaerat
-                                        Voluptem</a></span>
-                                <span class="price d-block fwEbold">58.00 $</span>
+                                <span class="title d-block mb-2"><a href="#">Pampers (M)</a></span>
+                                <span class="price d-block fwEbold">Rp.50.000,00</span>
                             </div>
                         </div>
                     </div>
@@ -416,7 +414,7 @@
                                         <a href="javascript:void(0);" class="icon-heart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
-                                        <a href="javascript:void(0);" class="icon-cart d-block"></a>
+                                        <a href="{{ url('/pembayaran') }}" class="icon-cart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
                                         <a href="javascript:void(0);" class="icon-eye d-block"></a>
@@ -425,11 +423,11 @@
                                         <a href="javascript:void(0);" class="icon-arrow d-block"></a>
                                     </li>
                                 </ul>
+
                             </div>
                             <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Neque Porro
-                                        Quisquam</a></span>
-                                <span class="price d-block fwEbold"><del>60.00 $</del>48.00 $</span>
+                                <span class="title d-block mb-2"><a href="#">Pempers (M)</a></span>
+                                <span class="price d-block fwEbold"><del>Rp.50.000,00</del>Rp.50.000,00</span>
                                 <span
                                     class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
                             </div>
@@ -447,7 +445,7 @@
                                         <a href="javascript:void(0);" class="icon-heart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
-                                        <a href="javascript:void(0);" class="icon-cart d-block"></a>
+                                        <a href="{{ url('/pembayaran') }}" class="icon-cart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
                                         <a href="javascript:void(0);" class="icon-eye d-block"></a>
@@ -458,8 +456,8 @@
                                 </ul>
                             </div>
                             <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Sit voluptatem</a></span>
-                                <span class="price d-block fwEbold">65.00 $</span>
+                                <span class="title d-block mb-2"><a href="#">Pampers (M)</a></span>
+                                <span class="price d-block fwEbold">Rp.50.000,00</span>
                             </div>
                         </div>
                     </div>
@@ -475,7 +473,7 @@
                                         <a href="javascript:void(0);" class="icon-heart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
-                                        <a href="javascript:void(0);" class="icon-cart d-block"></a>
+                                        <a href="{{ url('/pembayaran') }}" class="icon-cart d-block"></a>
                                     </li>
                                     <li class="mr-2 overflow-hidden">
                                         <a href="javascript:void(0);" class="icon-eye d-block"></a>
@@ -486,9 +484,8 @@
                                 </ul>
                             </div>
                             <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Aliquam Quaerat
-                                        Voluptatem</a></span>
-                                <span class="price d-block fwEbold">80.00 $</span>
+                                <span class="title d-block mb-2"><a href="#">Pampers (M)</a></span>
+                                <span class="price d-block fwEbold">Rp.50.000,00</span>
                                 <span
                                     class="hotOffer fwEbold text-uppercase text-white position-absolute d-block">Hot</span>
                             </div>
@@ -586,7 +583,7 @@
                                     </ul>
                                 </div>
                                 <div class="text-center py-5 px-2">
-                                    <span class="title d-block mb-2"><a href="shop-detail.html">Sint Incidunt
+                                    <span class="title d-block mb-2"><a href="#">Sint Incidunt
                                             Utlabore</a></span>
                                     <span class="price d-block fwEbold"><del>75.00 $</del>60.50 $</span>
                                     <span
@@ -621,7 +618,7 @@
                                     </ul>
                                 </div>
                                 <div class="text-center py-5 px-2">
-                                    <span class="title d-block mb-2"><a href="shop-detail.html">Aliquam Quaerat
+                                    <span class="title d-block mb-2"><a href="#">Aliquam Quaerat
                                             Voluptem</a></span>
                                     <span class="price d-block fwEbold">58.00 $</span>
                                 </div>
@@ -652,7 +649,7 @@
                                     </ul>
                                 </div>
                                 <div class="text-center py-5 px-2">
-                                    <span class="title d-block mb-2"><a href="shop-detail.html">Neque Porro
+                                    <span class="title d-block mb-2"><a href="#">Neque Porro
                                             Quisquam</a></span>
                                     <span class="price d-block fwEbold"><del>60.00 $</del>48.00 $</span>
                                     <span
@@ -685,7 +682,7 @@
                                     </ul>
                                 </div>
                                 <div class="text-center py-5 px-2">
-                                    <span class="title d-block mb-2"><a href="shop-detail.html">Sit
+                                    <span class="title d-block mb-2"><a href="#">Sit
                                             voluptatem</a></span>
                                     <span class="price d-block fwEbold">65.00 $</span>
                                 </div>
@@ -716,7 +713,7 @@
                                     </ul>
                                 </div>
                                 <div class="text-center py-5 px-2">
-                                    <span class="title d-block mb-2"><a href="shop-detail.html">Aliquam Quaerat
+                                    <span class="title d-block mb-2"><a href="#">Aliquam Quaerat
                                             Voluptatem</a></span>
                                     <span class="price d-block fwEbold">80.00 $</span>
                                     <span
@@ -749,7 +746,7 @@
                                     </ul>
                                 </div>
                                 <div class="text-center py-5 px-2">
-                                    <span class="title d-block mb-2"><a href="shop-detail.html">Sit
+                                    <span class="title d-block mb-2"><a href="#">Sit
                                             voluptatem</a></span>
                                     <span class="price d-block fwEbold">65.00 $</span>
                                 </div>
@@ -780,7 +777,7 @@
                                     </ul>
                                 </div>
                                 <div class="text-center py-5 px-2">
-                                    <span class="title d-block mb-2"><a href="shop-detail.html">Sit
+                                    <span class="title d-block mb-2"><a href="#">Sit
                                             voluptatem</a></span>
                                     <span class="price d-block fwEbold">65.00 $</span>
                                 </div>

@@ -100,6 +100,10 @@ Route::prefix('master')->group(function () {
         return view('master.pesanan');
     })->name('master.pesanan');
 
+    Route::get('/detail', function () {
+        return view('master.detail');
+    })->name('master.detail');
+
     Route::get('/notifikasi', function () {
         return view('master.notifikasi');
     })->name('master.notifikasi');

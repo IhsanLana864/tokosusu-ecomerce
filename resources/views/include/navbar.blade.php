@@ -67,8 +67,8 @@
                     </a>
                     <div class="dropdown-menu pl-4 pr-4">
                         <a class="dropdown-item" href="{{ url('/login') }}">Login</a>
-                        <a class="dropdown-item" href="{{ url('/register') }}">Registration</a>
-                        <a class="dropdown-item" href="{{ url('/logout') }}">Logout</a>
+                        {{-- <a class="dropdown-item" href="{{ url('/register') }}">Registration</a>
+                        <a class="dropdown-item" href="{{ url('/logout') }}">Logout</a> --}}
                     </div>
 
                 </li>
